@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+sys.path.append('.')
+
 import argparse, os, sys, glob
 import torch
 import numpy as np
